@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Portfolio </title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+
+            #txt_welcome {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            .card {
+                text-align: center;
+            }
+
+            .card_title {
+                font-size: 20px;
+            }
+
+            .card_btn {
+                font-size: 25px;
+                width: 150px;
+                height: 30px;
+            }
+
+            .card_img {
+                width: 200px;
+                height: 200px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>윤다혜 포트폴리오</h1>
+        <div id="txt_welcome">
+            안녕하세요! 개발자 윤다혜입니다. <br>
+            저의 프로젝트를 소개합니다. <br>
+            <br>
+            <br>
+        </div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr;">
+            <div class="card">
+                <img class="card_img" src="./image/img1.png">
+                <p> Object Detection 점자 인식 <br>
+                    및 점자 번역기 앱 개발 </p>
+                <button type="button" onclick="location.href = 'https://github.com/DahyeY/Braille_Recognition_2023' ">
+                    보러가기
+                </button>
+            </div>
+            <div class="card">
+                <img class="card_img" src="./image/img2.jpg">
+                <p> 프로젝트 1 </p>
+                <button> 준비 중 </button>
+            </div>
+            <div class="card">
+                <img class="card_img" src="./image/img3.png">
+                <p> 프로젝트 2 </p>
+                <button> 준비 중 </button>
+            </div>
+        </div>
+    </body>
+
+</html>
